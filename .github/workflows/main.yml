@@ -1,6 +1,8 @@
 name: Build C++
 
 on:
+  pull:
+    branches: [ main ]
   push:
     branches: [ main ]
   pull_request:
